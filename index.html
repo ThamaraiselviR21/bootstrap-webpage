@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zomoto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="col-12">
+    <nav class=" container-fluid  navbar d-flex d-md-none col-12">
+   
+      <div class="ms-2">
+      
+        <h1 >Hello Javior ponna</h1>
+     
+        <button class="nav-link dropdown-toggle p-2 btn btn-outline-info" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: solid black;"> <i class="fa-solid fa-location-dot"></i>
+      
+          Coimbatore
+      
+        </button>
+    
+      </div>
+      <div class="btn">
+        <i class="fa-solid fa-cart-shopping" ></i>
+      </div> 
+ 
+    </nav>
+ 
+    <div class=" d-md-none d-block">
+ 
+   
+      <p class="d-flex justify-content-end">
+   
+     
+        <button class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+       
+          <i class="fa-solid fa-bars"></i>
+     
+       </button>
+    
+      </p>
+  
+ 
+  
+      <div class="collapse text-center name" id="collapseExample">
+      
+    
+           
+        <button class=" btn btn-outline-info border-dark text-black my-1 " >Sort</button><br>
+      
+        <button class=" btn btn-outline-info border-dark text-black my-1">Order</button><br>
+     
+        <button class=" btn btn-outline-info border-dark text-black my-1">Cart</button><br>
+     
+        <button class=" btn btn-outline-info border-dark text-black my-1">Rating</button><br>
+      
+  
+   
+      </div>
+ 
+    </div>
+    
+  
+    <nav class="navbar  navbar-light bg-light d-none d-md-flex">
+          <ul class="navbar-nav me-auto  ">
+            <li class="nav-item d-flex">
+              <a class="nav-link  col-3">
+                <img src="./images__11_-removebg-preview (1).png" width="100%">
+              </a>
+              <button class="nav-link dropdown-toggle p-2 btn btn-outline-info" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: solid black;"> <i class="fa-solid fa-location-dot"></i>
+                Coimbatore
+               
+              </button>
+            </li>
+          
+          </ul>
+          
+          <div class="d-flex shadow-lg px-2">
+             <i class="fa-solid fa-search py-3  " ></i>
+             <input class="form-control  border-0 shadow-sm" type="search" placeholder="Search" aria-label="Search">
+          </div>
+            <li class="nav-link btn-group">
+              <button class="nav-link dropdown-toggle btn btn-outline-info p-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: solid black;"> <i class="fa-solid fa-language "></i>
+                Eng
+              </button>
+              <ul class="dropdown-menu ">
+                <li class="dropdown-item">Eng</li>
+                <li class="dropdown-item">Tamil</li>
+                <li class="dropdown-item">Hindi</li>
+              </ul>
+             </li>
+             <i class="fa-solid fa-store p-2" ></i>
+             <button class="btn btn-info">login</button>
+        
+    </nav> 
+    <div class="row ms-2 mt-2 shadow-lg">
+      <div class="  col-md-3 bg-light shadow-lg col-6 d-flex flex-md-column bg-info ">
+        <h3 class="bg-light mt-2 d-none d-md-flex">CUISINES</h3>
+         <input class="form-control me-2 mb-2  col-3 " type="search" placeholder="search" aria-label="Search">
+          <input class="form-control me-2 mb-2 d-md-none col-3 " type="search" placeholder="Fliter" aria-label="Search">
+       <!-- large  -->
+       <div class="container-fluid" >
+       <ul class="list-group d-none d-md-flex ">
+          <li class="list-group-item  ">
+            <span class="justify-content-evenly d-flex">
+              <img src="./images (1).jpeg" class="rounded-circle  " width="25%" height="60vh">
+              <p class="p-2">Pancake<p>
+      
+            </span>
+          </li>
+          <li class="list-group-item  ">
+            <span class="  justify-content-evenly d-flex">
+              <img src="./images (2).jpeg" class="rounded-circle" width="25%" height="50vh">
+              <p  class="p-2">coffee<p>
+  
+            </span>
+          </li>
+          <li class="list-group-item  ">
+            <span class="  justify-content-evenly d-flex">
+              <img src="./images (3).jpeg" class="rounded-circle" width="25%" height="50vh">
+              <p  class="p-2">Burger<p>
+  
+            </span>
+          </li>
+          <li class="list-group-item  ">
+            <span class="  justify-content-evenly d-flex">
+              <img src="./IMG-20240713-WA0008.jpg" class="rounded-circle" width="25%" height="50vh">
+              <p  class="p-2">pizza<p>
+  
+            </span>
+          </li>
+          <li class="list-group-item  ">
+            <span class="  justify-content-evenly d-flex">
+              <img src="./IMG-20240721-WA0015.jpg" class="rounded-circle" width="25%" height="50vh">
+              <p  class="p-2">seafood<p>
+  
+            </span>
+          </li>
+          <li class="list-group-item ">
+            <span class="  justify-content-evenly d-flex">
+              <img src="./IMG-20240721-WA0016.jpg" class="rounded-circle" width="25%" height="50vh">
+              <p  class="p-2">veg pulao<p>  
+            </span>
+          </li>
+          <li class="list-group-item  ">
+            <span class="d-flex  justify-content-evenly d-flex">
+              <img src="./IMG-20240721-WA0017.jpg" class="rounded-circle" width="25%" height="50vh">
+              <p  class="p-2">ramyeon<p>
+  
+            </span>
+          </li>
+          <li class="list-group-item   ">
+            <span class=" justify-content-evenly d-flex">
+              <img src="./IMG-20240721-WA0018.jpg" class="rounded-circle " width="25%" height="50vh">
+              <p  class="p-2">salad<p>
+  
+            </span>
+          </li>
+          <li class="list-group-item  ">
+            <span class="  justify-content-evenly d-flex">
+              <img src="./IMG-20240721-WA0020.jpg" class="rounded-circle" width="25%" height="50vh">
+              <p  class="p-2">hamburger<p>
+  
+            </span>
+          </li>
+          <li class="list-group-item  ">
+            <span class=" justify-content-evenly d-flex">
+              <img src="./IMG-20240721-WA0019.jpg" class="rounded-circle" width="25%" height="50vh">
+              <p  class="p-2">fried rice<p>
+  
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      </div>
+        <div class="col-12 col-md-9 mt-2    ">
+          <div class="row ps-3   d-none d-md-flex ">
+            <nav class="navbar pb-0 me-auto  ">
+              <ul class="navbar breadcrumb ">
+                <li class="nav-item breadcrumb-item">Home</li>
+                <li class="nav-item breadcrumb-item" style="color: purple;">Restaurants</li>
+              </ul>
+              <ul class="col-6">
+              <span class="nav-item p-2 mx-4 btn " >Sort</span>
+           
+              <span class="nav-item  p-2 mx-4 btn">Rating</span>
+           
+              <span class="nav-item p-2 mx-4 btn">Cart</span>
+          
+              <span class="nav-item p-2 mx-4 btn">Order</span>
+             </ul>
+            </nav>
+          </div>
+           
+            <div class="row bg-light mb-2 d-none d-md-flex bg-info"> 
+              <div class="col-4 card text-white  border-0 ">
+             
+                <img src="./rs (2).jpg " width="100%" height="220px">
+                <div class="card-img-overlay">
+                  <button class="btn btn-success mb-4">OFFFER</button>
+                  <h3 class="card-tittle-mt-5 ">50% OFF</h3>
+                  <p class="card-text">
+                    Exclusive OFFFER On AI CUISINES
+                  </p>
+                  <h4 class="card-text">ALBERTSONS</h4>
+                </div>
+            
+              </div>
+              <div class="col-4 card text-white   border-0">
+              
+                <img src="./rs.jpg" width="100%" height="220px">
+                 <div class="card-img-overlay">
+                  <button class="btn btn-success mb-4">OFFFER</button>
+                  <h3 class="card-tittle-mt-5 ">50% OFF</h3>
+                  <p class="card-text">
+                    Exclusive OFFFER On AI CUISINES
+                  </p>
+                  <h4 class="card-text">ALBERTSONS</h4>
+                </div>
+              
+            </div>
+            <div class="col-4 card text-white   border-0" >
+              
+                <img src="./kurczak.jpg" width="100%" height="220px">
+                 <div class="card-img-overlay">
+                  <button class="btn btn-success mb-4">OFFFER</button>
+                  <h3 class="card-tittle-mt-5 ">50% OFF</h3>
+                  <p class="card-text">
+                    Exclusive OFFFER On AI CUISINES
+                  </p>
+                  <h4 class="card-text">ALBERTSONS</h4>
+                </div>
+              
+            </div>
+            </div>
+            <!-- small -->
+            <div class=" d-md-none mt-2  " >
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active   ">
+                    <div class="d-flex  justify-content-around ">
+                      <div class="text-center   "  >
+                        <img src="./images (1).jpeg" class="rounded-circle  " width="100px" height="70vh">
+                        <p class="p-2">Pancake</p>
+                      </div>
+                      <div class="text-center  ">
+                        <img src="./images (2).jpeg" class="rounded-circle  " width="100px" height="70vh">
+                        <p class="p-2">coffee</p>
+                      </div>
+                      <div class="text-center ">
+                        <img src="./images (3).jpeg" class="rounded-circle  " width="100px" height="70vh">
+                        <p class="p-2">Burger</p>
+                      </div> 
+                    </div>  
+                  </div>
+                  <div class="carousel-item ">
+                    <div class="d-flex  justify-content-around">
+                      <div class="text-center ">
+                        <img src="./IMG-20240713-WA0008.jpg" class="rounded-circle  " width="100px" height="70vh">
+                        <p class="p-2">Pizza</p>
+                      </div>
+                      <div class="text-center ">
+                        <img src="./IMG-20240721-WA0015.jpg" class="rounded-circle  " width="100px" height="70vh">
+                        <p class="p-2">Seafood</p>
+                      </div>
+                      <div class="text-center  ">
+                        <img src="./IMG-20240721-WA0016.jpg" class="rounded-circle  " width="100px" height="70vh">
+                        <p class="p-2">Veg pulao</p>
+                      </div> 
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item ">
+                    <div class="d-flex  justify-content-around">
+                      <div class="text-center  ">
+                        <img src="./IMG-20240721-WA0019.jpg" class="rounded-circle  " width="100px" height="70vh">
+                        <p class="p-2">Ramyeon</p>
+                      </div>
+                      <div class="text-center ">
+                        <img src="./IMG-20240721-WA0020.jpg" class="rounded-circle  " width="100px" height="70vh">
+                        <p class="p-2">Burger</p>
+                      </div>
+                      <div class="text-center">
+                        <img src="./IMG-20240721-WA0023.jpg" class="rounded-circle  " width="100px" height="70vh">
+                        <p class="p-2">Juice</p>
+                      </div> 
+                    </div>
+                    
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            
+              </div>
+ 
+
+            
+            </div>
+            <div class=" d-md-none  ">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <div class=" card text-white m-1 border-0 ">
+             
+                      <img src="./rs (2).jpg " class="pic" >
+                      <div class="card-img-overlay" >
+                        <button class="btn btn-success mb-4">OFFFER</button>
+                        <h3 class="card-tittle-mt-5 ">50% OFF</h3>
+                        <p class="card-text">
+                          Exclusive OFFFER On AI CUISINES
+                        </p>
+                        <h4 class="card-text">ALBERTSONS</h4>
+                      </div>
+                  
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <div class=" card text-white m-1 border-0 ">
+             
+                      <img src="./kurczak.jpg" class="pic">
+                      <div class="card-img-overlay">
+                        <button class="btn btn-success mb-4">OFFFER</button>
+                        <h3 class="card-tittle-mt-5 ">50% OFF</h3>
+                        <p class="card-text">
+                          Exclusive OFFFER On AI CUISINES
+                        </p>
+                        <h4 class="card-text">ALBERTSONS</h4>
+                      </div>
+                  
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-12 card text-white m-1 border-0 ">
+             
+                      <img src="./rs.jpg " class="pic">
+                      <div class="card-img-overlay">
+                        <button class="btn btn-success mb-4">OFFFER</button>
+                        <h3 class="card-tittle-mt-5 ">50% OFF</h3>
+                        <p class="card-text">
+                          Exclusive OFFFER On AI CUISINES
+                        </p>
+                        <h4 class="card-text">ALBERTSONS</h4>
+                      </div>
+                  
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            
+            </div>
+             
+                
+              
+           
+            <div class="row bg-light d-flex ">
+                <h1 class="mt-5 mb-0">recommed dishes</h1>
+              </div>
+              <div class="row bg-light shadow-lg" >
+                <div class=" mb-5 mt-5"> 
+                  <div class="row  d-block d-md-flex " >
+                    <div class="col-md-4 col-12 shadow-lg">
+                      <div class="row my-3  rounded ">
+                        <div class="  col-5  pe-0">
+                          <img src="./IMG-20240721-WA0015.jpg" width="100%" height="100%" class="rounded" >
+                        </div> 
+                        <div class="col-7 ps-4"> 
+                          <h5>food zone</h5>
+                          <p>food zone</p>
+                          <i class="fa-solid fa-star" >
+                      
+                          </i>
+                       <span>4.1</span>
+                       <span>2.5km</span>
+                       <span class="color">$200</span>
+                         
+                       </div>
+                      </div>                   
+                    </div>
+                    <div class="col-12 col-md-4 shadow-lg">
+                      <div class="row my-3  rounded">
+                        <div class=" col-5  pe-0 ">
+                          <img src="./IMG-20240721-WA0016.jpg" width="100%" height="100%" class="rounded" >
+                        </div> 
+                        <div class="col-7 ps-4"> 
+                          <h5>food zone</h5>
+                          <p>food zone</p>
+                          <i class="fa-solid fa-star" >
+                        </i>
+                       <span>4.1</span>
+                       <span>2.5km</span>
+                       <span class="color">$200</span>
+                         
+                       </div>
+                      </div>                   
+                    </div>
+                    <div class="col-12 col-md-4 shadow-lg ">
+                      <div class="row my-3  rounded">
+                        <div class=" col-5  pe-0">
+                          <img src="./IMG-20240721-WA0018.jpg" width="100%" height="100%" class="rounded" >
+                        </div> 
+                        <div class="col-7 ps-4 "> 
+                          <h5>food zone</h5>
+                          <p>food zone</p>
+                          <i class="fa-solid fa-star" >
+                          </i>
+                       <span>4.1</span>
+                       <span>2.5km</span>
+                       <span class="color">$200</span>
+                         
+                       </div>
+                      </div>                   
+                    </div>
+              </div>
+              <div class="row d-block d-md-flex">
+                <div class="col-12 col-md-4 shadow-lg">
+                  <div class="row my-3  rounded ">
+                    <div class=" col-5 pe-0 ">
+                      <img src="./rs=h_1000,cg_true,m.jpeg" width="100%" height="100%" class="rounded" >
+                    </div> 
+                    <div class="col-7 ps-4 "> 
+                      <h5>food zone</h5>
+                      <p>food zone</p>
+                       <i class="fa-solid fa-star" >
+                       </i>
+                       <span>4.1</span>
+                       <span>2.5km</span>
+                       <span class="color"> $200</span>
+                   </div>
+                  </div>                   
+                </div>
+                <div class="col-12 col-md-4 shadow-lg">
+                  <div class="row my-3  rounded">
+                    <div class=" col-5 pe-0 ">
+                      <img src="./IMG-20240721-WA0015.jpg" width="100%" height="100%" class="rounded" >
+                    </div> 
+                    <div class="col-7 ps-4"> 
+                      <h5>food zone</h5>
+                      <p>food zone</p>
+                      <i class="fa-solid fa-star" >
+                       </i>
+                       <span>4.1</span>
+                       <span>2.5km</span>
+                       <span class="color"> $200</span>
+                     
+                   </div>
+                  </div>                   
+                </div>
+                <div class="col-12 col-md-4 shadow-lg">
+                  <div class="row my-3  rounded">
+                    <div class=" col-5 pe-0">
+                      <img src="./IMG-20240721-WA0024.jpg" width="100%" height="100%" class="rounded" >
+                    </div> 
+                    <div class="col-7 ps-4"> 
+                      <h5>food zone</h5>
+                      <p>food zone</p>
+                      <i class="fa-solid fa-star" >
+                       </i>
+                       <span>4.1</span>
+                       <span>2.5km</span>
+                       <span class="color">$200</span>
+                      
+                   </div>
+                  </div>                   
+                </div>                   
+            </div>
+            <div class="row d-block d-md-flex">
+              <div class="col-12  col-md-4 shadow-lg">
+                <div class="row  my-3  rounded">
+                  <div class=" col-5  pe-0">
+                    <img src="./rs.jpg" width="100%" height="100%" class="rounded" >
+                  </div> 
+                  <div class="col-7 ps-4"> 
+                    <h5>food zone</h5>
+                    <p>food zone</p>
+                    <i class="fa-solid fa-star" >
+                       </i>
+                       <span>4.1</span>
+                       <span>2.5km</span>
+                       <span class="color">$200</span>
+                       
+                   
+                 </div>
+                </div>                   
+              </div>
+              <div class="col-12 col-md-4 shadow-lg">
+                <div class="row  my-3  rounded">
+                  <div class=" col-5 pe-0 ">
+                    <img src="./IMG-20240721-WA0022.jpg" width="100%" height="100%" class="rounded" >
+                  </div> 
+                  <div class="col-7 ps-4"> 
+                    <h5>food zone</h5>
+                    <p>food zone</p>
+                    <i class="fa-solid fa-star" >
+                       </i>
+                       <span>4.1</span>
+                       <span>2.5km</span>
+                       <span class="color">$200</span>
+                    
+                 </div>
+                </div>                   
+              </div>
+              <div class="col-12 col-md-4 shadow-lg ">
+                <div class="row my-3 box rounded">
+                  <div class=" col-5 pe-0 ">
+                    <img src="./rs (2).jpg" width="100%" height="100%" class="rounded" >
+                  </div> 
+                  <div class="col-7 ps-4"> 
+                    <h5>food zone</h5>
+                    <p>food zone</p>
+                    <i class="fa-solid fa-star" >
+                       </i>
+                       <span>4.1</span>
+                       <span>2.5km</span>
+
+                       <span class="color">$200</span>
+                    
+                 </div>
+                </div>                   
+              </div>
+              
+        </div>
+               
+                
+               
+             
+          </div>
+
+         </div>
+        </div>
+    </div>
+
+    </div>
+      
+     </div>
+    
+    </div>
+
+   </div>
+
+       <li class="collapse navbar-collapse nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+  </div>
+<style>
+  
+  .color{
+    color: darkgreen;
+  }
+
+     .pic{
+      width: 100%;
+      height: 50vh;
+    
+     }
+     .name>button{
+      width: 90%;
+     }
+    
+</style>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
